@@ -25,5 +25,25 @@ background-attachment属性指定图片是否滚屏
     background:-moz-liner-gradient(right,color-stop1,color-stop2)写结束点方向
     background:-o-liner-gradient(right,color-stop1,color-stop2)写结束点方向
     background:liner-gradient(to right,color-stop1,color-stop2)写结束点方向
+### 对角    
+    background:-webkit-liner-gradient(left top,color-stop1,color-stop2)写开始点方向
+    background:-moz-liner-gradient(right bottom,color-stop1,color-stop2)写结束点方向
+    background:-o-liner-gradient(right bottom,color-stop1,color-stop2)写结束点方向
+    background:liner-gradient(to right bottom,color-stop1,color-stop2)写结束点方向
     
+    background:liner-gradient(30deg,color-stop1,color-stop2)
     
+    background:liner-gradient(30deg,color-stop1 width,color-stop2 width)
+### 线性渐变-重复渐变
+    语法:background:repeating-linear-gradient(color1 length|percentage,color2 length|percentage)
+### 径向渐变（radial gradients）属性
+    background:radial-gradient(center,shape size,start-color,...,last-color)
+### 形状说明
+    circle-圆形
+    ellipse-椭圆
+    background:radial-gradient(circle,start-color,...,last-color)
+### 尺寸大小关键字
+    background:radial-gradient(size,start-color,...,last-color)
+### 关键字说明
+    closet-side:最近边   farhest-side:最远边
+    closet-side:最近角   farhest-corner:最远角
