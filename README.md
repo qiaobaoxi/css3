@@ -47,3 +47,5 @@ background-attachment属性指定图片是否滚屏
 ### 关键字说明
     closet-side:最近边   farhest-side:最远边
     closet-side:最近角   farhest-corner:最远角
+### 径向渐变-重复渐变
+    语法:background:repeating-radial-gradient(color1 length|percentage,color2 length|percentage)
